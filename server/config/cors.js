@@ -1,7 +1,7 @@
 /**
  * Created by Matthew on 11/21/16.
  */
-const whitelist = [];
+const whitelist = ['https://lavioli.github.io'];
 
 module.exports = (req, res, next) => {
     let allowCORS = false;
