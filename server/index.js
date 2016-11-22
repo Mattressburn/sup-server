@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const jsonParser = bodyParser.json();
 const passport = require('./config/passport');
-const setCORS = require('/config/cors');
+const setCORS = require('./config/cors');
 
 mongoose.Promise = global.Promise;
 

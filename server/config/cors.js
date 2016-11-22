@@ -1,4 +1,4 @@
-const whitelist = ['https://lavioli.github.io'];
+const whitelist = ['https://lavioli.github.io', 'http://localhost:8080/'];
 
 module.exports = (req, res, next) => {
     let allowCORS = false;
